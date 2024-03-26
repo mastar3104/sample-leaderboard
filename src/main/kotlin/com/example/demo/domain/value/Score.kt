@@ -12,4 +12,8 @@ data class Score(
     override fun compareTo(other: Score): Int {
         return value.compareTo(other.value)
     }
+
+    fun toInt(): Int {
+        return value
+    }
 }

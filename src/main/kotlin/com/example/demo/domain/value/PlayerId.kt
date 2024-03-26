@@ -21,4 +21,8 @@ data class PlayerId(
     override fun compareTo(other: PlayerId): Int {
         return value.compareTo(other.value)
     }
+
+    override fun toString(): String {
+        return value
+    }
 }

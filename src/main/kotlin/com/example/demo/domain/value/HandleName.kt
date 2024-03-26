@@ -17,4 +17,7 @@ data class HandleName(
         const val HANDLE_NAME_MAX_LENGTH = 20
     }
 
+    override fun toString(): String {
+        return value
+    }
 }
